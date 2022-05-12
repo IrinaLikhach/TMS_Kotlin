@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_Kotlin">
         <activity
-            android:name=".HW16Activity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".HW16Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
