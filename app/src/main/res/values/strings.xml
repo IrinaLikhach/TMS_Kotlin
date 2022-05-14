@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">TMS_Kotlin</string>
+    <string name="hw16task1">hw16task1</string>
+    <string name="task1hw16">task1hw16</string>
+    <string name="hw16task2">hw16task2</string>
+    <string name="task2hw16">task2hw16</string>
+    <string name="hw16task3">hw16task3</string>
+    <string name="task3hw16">task3hw16</string>
+    <string name="_0000">0000</string>
+    <string name="start">start</string>
+
+
 </resources>
