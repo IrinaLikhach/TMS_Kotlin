@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_Kotlin">
         <activity
+            android:name=".HW19Activity_Poland"
+            android:exported="false" />
+        <activity
+            android:name=".HwActivity_Poland"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_Ireland"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_Denmark"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_Belgium"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_Sweden"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_France"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity_Germany"
+            android:exported="false" />
+        <activity
+            android:name=".HW19Activity"
+            android:exported="false" />
+        <activity
             android:name=".HW15Activity"
             android:exported="false" />
         <activity
