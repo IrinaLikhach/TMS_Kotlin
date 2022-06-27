@@ -1,13 +1,37 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TMS_Kotlin</string>
-    <string name="hw16task1">hw16task1</string>
-    <string name="task1hw16">task1hw16</string>
-    <string name="hw16task2">hw16task2</string>
-    <string name="task2hw16">task2hw16</string>
-    <string name="hw16task3">hw16task3</string>
-    <string name="task3hw16">task3hw16</string>
+    <string name="homework_14">homework 14</string>
+    <string name="homework_15">homework 15</string>
+    <string name="homework_16">homework 16</string>
+    <string name="homework_17">homework 17</string>
+    <string name="homework_18">homework 18</string>
+    <string name="homework_19">homework 19</string>
+    <string name="homework_22">homework 22</string>
+    <string name="homework_23">homework 23</string>
+
+    //Homework14
+    <string name="Homework_14">Homework_14</string>
+
+    //Homework15
+
+
+    //Homework16
+    <string name="Homework_16">Homework_16</string>
+    <string name="Task_1">Task_1</string>
+    <string name="textview">TextView</string>
+    <string name="Task_2">Task_2</string>
+    <string name="Task_3">Task_3</string>
+    <string name="Task_4">Task_4</string>
+    <string name="start_1">Start 1</string>
+    <string name="start_2">Start 2</string>
+    <string name="start_3">Start 3</string>
+    <string name="start_4">Start 4</string>
+
+    //Homework17
+    <string name="start_timer">start_timer</string>
     <string name="_0000">0000</string>
-    <string name="start">start</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
