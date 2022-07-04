@@ -7,6 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.tms_kotlin.databinding.FragmentButtonMainBinding
 import com.example.tms_kotlin.hw14.hw14_Fragment
+import com.example.tms_kotlin.hw15.hw15_Fragment
+import com.example.tms_kotlin.hw16.hw16_Fragment
+import com.example.tms_kotlin.hw17.hw17_Fragment
+import com.example.tms_kotlin.hw19.hw19_Fragment
+import com.example.tms_kotlin.hw23.hw23_Fragment
 
 class ButtonMainFragment : Fragment() {
 
@@ -43,6 +48,20 @@ class ButtonMainFragment : Fragment() {
         binding.btnHw17.setOnClickListener {
             this.activity?.supportFragmentManager?.beginTransaction()
                 ?.replace(R.id.fragment_container, hw17_Fragment())
+                ?.addToBackStack("Main Menu")
+                ?.commit()
+        }
+
+        binding.btnHw19.setOnClickListener {
+            this.activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.fragment_container, hw19_Fragment())
+                ?.addToBackStack("Main Menu")
+                ?.commit()
+        }
+
+        binding.btnHw23.setOnClickListener {
+            this.activity?.supportFragmentManager?.beginTransaction()
+                ?.replace(R.id.fragment_container, hw23_Fragment())
                 ?.addToBackStack("Main Menu")
                 ?.commit()
         }

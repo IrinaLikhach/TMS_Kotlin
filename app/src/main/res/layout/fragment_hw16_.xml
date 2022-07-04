@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hw16_Fragment">
+    tools:context=".hw16.hw16_Fragment">
 
     <TextView
         android:id="@+id/tv_Homevork16"
@@ -40,12 +40,12 @@
         android:layout_marginEnd="8dp"
         android:text="@string/textview"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_fr_hw16t1"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hw16t1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_task1_hw16" />
 
     <Button
-        android:id="@+id/btn_fr_hw16t1"
+        android:id="@+id/btn_hw16t1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -64,7 +64,7 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_fr_hw16t1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_hw16t1" />
 
     <TextView
         android:id="@+id/tv_fr_hw16t2"
@@ -75,12 +75,12 @@
         android:layout_marginEnd="8dp"
         android:text="@string/textview"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_fr_hw16t2"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hw16t2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_task2_hw16" />
 
     <Button
-        android:id="@+id/btn_fr_hw16t2"
+        android:id="@+id/btn_hw16t2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -99,7 +99,7 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_fr_hw16t2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_hw16t2" />
 
     <TextView
         android:id="@+id/tv_fr_hw16t3"
@@ -110,12 +110,12 @@
         android:layout_marginEnd="8dp"
         android:text="@string/textview"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_fr_hw16t3"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hw16t3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_task3_hw16" />
 
     <Button
-        android:id="@+id/btn_fr_hw16t3"
+        android:id="@+id/btn_hw16t3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -133,7 +133,7 @@
         android:layout_marginEnd="8dp"
         android:text="@string/textview"
         android:textSize="20sp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_fr_hw16t4"
+        app:layout_constraintEnd_toStartOf="@+id/btn_hw16t4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_task4_hw16" />
 
@@ -147,10 +147,10 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_fr_hw16t3" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_hw16t3" />
 
     <Button
-        android:id="@+id/btn_fr_hw16t4"
+        android:id="@+id/btn_hw16t4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"

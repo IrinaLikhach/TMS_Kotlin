@@ -1,4 +1,4 @@
-package com.example.tms_kotlin
+package com.example.tms_kotlin.hw16
 
 import android.os.Build
 import android.os.Bundle
@@ -27,7 +27,7 @@ class hw16_Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //Task1
-        binding.btnFrHw16t1.setOnClickListener {
+        binding.btnHw16t1.setOnClickListener {
             val a = (0..50).random()
             val b = (0..50).random()
             binding.tvFrHw16t1.text = when (a % 2) {
@@ -41,7 +41,7 @@ class hw16_Fragment : Fragment() {
         }
 
         //Task2
-        binding.btnFrHw16t2.setOnClickListener {
+        binding.btnHw16t2.setOnClickListener {
             val a = (0..20).random()
             val b = (0..20).random()
             val c = (0..20).random()
@@ -53,7 +53,7 @@ class hw16_Fragment : Fragment() {
 
         //Task3
 
-        binding.btnFrHw16t3.setOnClickListener {
+        binding.btnHw16t3.setOnClickListener {
             val studentRating = ((0..100).random())
             val studentMark = when (studentRating) {
                 in (0..19) -> 'F'
@@ -68,7 +68,7 @@ class hw16_Fragment : Fragment() {
         }
 
         //Task4
-        binding.btnFrHw16t4.setOnClickListener {
+        binding.btnHw16t4.setOnClickListener {
             val a1 = (1..20).random()
             val b1 = (1..20).random()
             val a2 = (1..20).random()

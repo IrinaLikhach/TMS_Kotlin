@@ -1,4 +1,4 @@
-package com.example.tms_kotlin
+package com.example.tms_kotlin.hw17
 
 import android.os.Bundle
 import android.os.CountDownTimer
