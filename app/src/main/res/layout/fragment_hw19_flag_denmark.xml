@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hw19.hw19FlagDenmarkFragment">
+
+    <FrameLayout
+        android:id="@+id/White_Ic"
+        android:layout_width="330dp"
+        android:layout_height="220dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <FrameLayout
+            android:id="@+id/Red_1_Dn"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#F44336">
+
+            <TextView
+                android:id="@+id/White_1_Dn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/Red_2_Dn"
+            android:layout_width="179dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="#F44336">
+
+            <TextView
+                android:id="@+id/White_2_Dn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="#FFFFFF" />
+        </FrameLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
