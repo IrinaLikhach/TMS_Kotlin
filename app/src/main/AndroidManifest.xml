@@ -12,9 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TMS_Kotlin" >
-        <activity
-            android:name=".HW16Activity"
-            android:exported="false" />
 
         <activity
             android:name=".retrofit.ui.FilmsActivity"
